@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="sstyle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <div class="user-icon">
+                <img src="loginimage.jpg" alt="User Icon">
+            </div>
+            <form>
+                <div class="input-group">
+                    <input type="email" placeholder="Email ID" required class="email-input">
+                </div>
+                
+                <style>
+                    .email-input::placeholder {
+                        font-weight: bold; /* Makes the placeholder text bold */
+                    }
+                </style>
+                <div class="input-group">
+                    <input type="password" placeholder="Password" required class="password-input">
+                </div>
+                
+                <style>
+                    .password-input::placeholder {
+                        font-weight: bold; /* Makes the placeholder text bold */
+                    }
+                </style>
+                <div class="options">
+                    <label>
+                        <input type="checkbox">Remember me
+                    </label>
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                </div>
+                <div class="button-group">
+                <button type="submit">LOGIN</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
